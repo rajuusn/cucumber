@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {".//features/LoginDataDriven.feature"},  glue={"stepDefinitions","hooks"},
+@CucumberOptions(features= {".//features/login.feature"},  glue={"stepDefinitions","hooks"},
 //@CucumberOptions(features= {"@target/rerun.txt"},  glue={"stepDefinitions","hooks"},
 
 //features= {"@target/rerun.txt"},for the reruning failed tests

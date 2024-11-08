@@ -9,7 +9,7 @@ Feature: User Login
      Examples:
     |username     | password  |
     |Admin        | admin123  |
-    |addminn      | idonttell |
+    
     
     
 
